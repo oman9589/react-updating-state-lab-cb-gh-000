@@ -10,4 +10,10 @@ class YouTubeDebugger extends React.Component {
       settings: {bitrate: 8, video: {resolution: '1080p'}},
     }
   }
+
+  render() {
+    return(
+      <button onClick={this.handleClick()}
+    )
+  }
 }
